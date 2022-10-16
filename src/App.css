@@ -1,0 +1,142 @@
+.react-grid-layout {
+    position: relative;
+}
+
+/*공유파트 검색창 설정*/
+#inputID::placeholder {
+    color: black;
+    font-size: larger;
+    opacity: 1;
+}
+
+
+.firstbox /*연분홍색 바 안에 글씨*/
+{
+    position    : relative;
+    z-index     : 2;
+    width       : 700px;
+    height      : 75px;
+    left:900px;
+    padding: 20px 50px 0px 0px;
+    text-align: left;
+}
+.secondbox /*밑줄*/
+{
+    position    : relative;
+    z-index     : 2;
+    width       : 1400px;
+    height      : 75px;
+    left:223px;
+    padding: 20px 0px 0px 50px;
+    text-decoration: underline;
+    text-decoration-color: mediumpurple;
+    text-underline-position:under;
+
+}
+
+.thirdbox /*연분홍색 바*/
+{
+    position    : absolute;
+    z-index     : 1;
+    width       : 740px;
+    height      : 75px;
+    left:869px;
+    top:-65px;
+    padding: 20px 50px 0px 0px;
+    text-align: left;
+    background  : mediumpurple;
+    transform: skew(20deg);
+    opacity: 0.75;
+}
+
+
+.imgbox /*작은 이력서*/
+{
+    position    : relative;
+    z-index     : 2;
+    width       : 160px;
+    height      : 200px;
+    border-radius: 22px;
+    margin-bottom: 70px;
+}
+
+.imgbox2 /*캐로셀 작은 사진*/
+{
+    position    : relative;
+    z-index     : 2;
+    width       : 200px;
+    height      : 300px;
+    border-radius: 22px;
+    margin-bottom: 70px;
+    padding: 5px 0px 0px 5px;
+    background  : gray;
+}
+
+.imgbox3 /*캐로셀 큰 사진*/
+{
+    position    : relative;
+    z-index     : 2;
+    width       : 240px;
+    height      : 360px;
+    border-radius: 22px;
+    margin-bottom: 70px;
+    padding: 10px 0px 0px 10px;
+    background  : gray;
+}
+
+.imgbox4 /*맨 위 이력서 세개 감싼*/
+{
+    position    : relative;
+    z-index     : 2;
+    width       : 1200px;
+    height      : 600px;
+    border-radius: 100px;
+    background  : #463265;
+}
+
+.imgbox5 /*밑 이력서*/
+{
+    position    : relative;
+    z-index     : 3;
+    width       : 140px;
+    height      : 190px;
+    border-radius: 22px;
+    margin-bottom: 70px;
+}
+
+.imgbox6 /*밑 이력서*/
+{
+    position    : relative;
+    z-index     : 2;
+    width       : 400px;
+    height      : 600px;
+    border-radius: 22px;
+}
+
+.circle1 /**/
+{
+    position    : absolute;
+    z-index     : 2;
+    width       : 140px;
+    height      : 190px;
+    left: 100px;
+    top:0px;
+    background  : pink;
+    border-radius: 0px 190px 190px 0px;
+}
+
+.circle2 /**/
+{
+    position    : absolute;
+    z-index     : 2;
+    width       : 140px;
+    height      : 190px;
+    left: 100px;
+    top:0px;
+    border-radius: 0px 0px 0px 190px;
+    border: 5px solid blue;
+}
+
+#tsparticles > canvas {
+    position: absolute !important;
+}
